@@ -31,7 +31,8 @@
 ```
 
 ## 데이터 주석
-paddleocr 설치 후 cmd에서 ppocrlabel을 입력하여 전용 프로그램으로 라벨링을 진행한 뒤 개별 문자를 학습하기 위해 croping을 수행합니다.
+ppocrlabel 프로그램으로 라벨링을 진행한 뒤 개별 문자를 학습하기 위해 croping을 수행합니다.
+
 ```bash
 with open('./M2021/Label.txt','r',encoding='utf8')as fp:
     s = [i[:-1].split('\t') for i in fp.readlines()]
