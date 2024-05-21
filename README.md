@@ -1,0 +1,1 @@
+# paddleOCR_rec_finetuning
