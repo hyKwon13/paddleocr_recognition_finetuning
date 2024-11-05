@@ -193,3 +193,6 @@ Eval:
 ```sh
 !python tools/export_model.py -c en_PP-OCRv3_rec_train/config.yml -o Global.pretrained_model=output/v3_en_mobile2/best_accuracy Global.save_inference_dir=./transrec0620/
 ```
+
+참고 출처
+https://aistudio.baidu.com/projectdetail/3495816
